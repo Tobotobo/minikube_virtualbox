@@ -193,11 +193,7 @@ kubernetes   ClusterIP      10.96.0.1       <none>        443/TCP          23m
 ```
 
 ```
-> kubectl get services
-NAME         TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
-hello-node   LoadBalancer   10.111.178.19   <pending>     8080:31581/TCP   15s
-kubernetes   ClusterIP      10.96.0.1       <none>        443/TCP          23m
-PS C:\Users\user\Desktop\Projects\minikube_virtualbox> minikube service hello-node
+> minikube service hello-node
 |-----------|------------|-------------|-----------------------------|
 | NAMESPACE |    NAME    | TARGET PORT |             URL             |
 |-----------|------------|-------------|-----------------------------|
